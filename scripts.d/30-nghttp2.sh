@@ -26,6 +26,7 @@ ffbuild_dockerbuild() {
         -DBUILD_STATIC_LIBS=ON \
         -DENABLE_LIB_ONLY=ON \
         -DENABLE_DOC=OFF \
+        -DBUILD_TESTING=OFF \
         ..
 
     ninja -j$(nproc)
