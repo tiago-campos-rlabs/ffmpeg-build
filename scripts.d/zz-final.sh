@@ -8,6 +8,7 @@ ffbuild_depends() {
     echo fribidi
     echo gmp
     echo libxml2
+    echo nghttp2
     echo openssl
     echo xz
     echo fonts
